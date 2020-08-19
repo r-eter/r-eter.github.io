@@ -1,8 +1,26 @@
 /* Set a background image by replacing the URL below */
+
+nav {
+
+}
+
 body {
   background: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2020%2F07%2F29%2Frose-bushes-getty-0720.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+h1 {
+	align-self: center;
+}
+
+.lead {
+	align-items: center;
+}
+
+.social {
+	height: 37px;
+	width: 37px;
 }
