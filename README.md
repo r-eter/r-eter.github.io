@@ -1,2 +1,2 @@
 # r-eter.github.io
-a presentation of myself to the world wide web (:
+here's me on the world wide web 
