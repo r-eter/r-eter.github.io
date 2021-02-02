@@ -25,6 +25,9 @@ h1 {
 	position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 800px;
+    font-weight: 500;
 
 }
 
@@ -36,21 +39,28 @@ footer {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-size: 90px;
-	font-weight: bold;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 200;
+	opacity:0.7 !important;
+  	filter:alpha(opacity=70) !important; /* For IE8 and earlier */
 }
 
 .container {
 	text-align: center;
+	opacity:0.7 !important;
+  	filter:alpha(opacity=70) !important; /* For IE8 and earlier */
 }
 
 .lead {
+	margin-top: 20px;
 
 }
 
 .card-body {
 	position: sticky;
 	text-align: center;
+	background-color: white;
+	border-radius: 50px;
 }
 
 .card-border {
@@ -58,8 +68,15 @@ footer {
 }
 
 .social {
-	margin-top: 30px;
-	padding: 15px;
+	margin-top: 40px;
 	min-width: 60px;
 	min-height: 60px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.social:hover{
+  	opacity:0.7 !important;
+  	filter:alpha(opacity=70) !important; /* For IE8 and earlier */
+  	box-shadow: 0 0 0px #000000 !important;
 }
